@@ -5,7 +5,7 @@ source ("./get_data_reduce.R")
 
 # Data loaded 
 # Open file plot1
-png("plot1.png", width=480, height=480)
+png("Plot1.png", width=480, height=480)
 
 # Plot 1 - a historgram, should be color red
 
