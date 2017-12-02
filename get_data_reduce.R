@@ -14,7 +14,7 @@ setwd("~/Dropbox/Prosjekter/ds_projects/course4/")
 destfile = "./household_power_consumption.txt"
 if(!file.exists(destfile)){
         # I download and unziped the dataset from https://d396qusza40orc.cloudfront.net
-        # to subfolder ./data
+        
         download.file("https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip", destfile="./household_power_consumption.zip")
         system("unzip ./household_power_consumption.zip")         
 }
